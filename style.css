@@ -1,0 +1,815 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(21, 1, 1, 0.603);
+}
+
+ul>li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.wrraper {
+    min-height: 100%;
+    width: 2000px;
+    background-color: #ffff;
+
+
+}
+
+.container {
+    min-height: 868px;
+    margin-left: 252px;
+    max-width: 100%;
+}
+
+.hero {
+    background-color: rgba(210, 49, 103, 0.103);
+
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 79px;
+    height: 79px;
+}
+.logo__img{
+    border-radius: 50%;
+}
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 40px;
+}
+
+.nav__item:last-child {
+    margin: 0px;
+}
+
+.btn {
+    padding: 15px 37px;
+    background: #D23166;
+    margin-right: 260px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+}
+
+.hero__content {
+    padding-top: 265px;
+}
+
+
+
+.tittle {
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57.33px;
+    line-height: 120.5%;
+}
+
+.hero__tittle {
+    color: rgba(210, 49, 103, 0.918);
+}
+
+.hero__desc {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 49px;
+    line-height: 27px;
+}
+
+.hero__content {
+
+    width: 58%;
+    margin-bottom: 211px;
+}
+
+.content {
+    display: flex;
+}
+
+.content__decor {
+    max-height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.content__img {
+    width: 100%;
+
+}
+
+.content__decor::after {
+    content: "";
+    display: block;
+    width: 365px;
+    height: 353px;
+    background: rgba(170, 47, 88, 0.062);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+
+}
+
+.content__decor::before {
+    content: "";
+    position: absolute;
+    display: block;
+    background-image: url(../img/content/milk.png);
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    background-position: bottom center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+.ice-cream__list {
+    margin-left: 39px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ice-cream__item {
+    width: calc(30% - 29px);
+}
+
+.wear-text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.wear {
+    padding-bottom: 27px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    max-width: 250px;
+    min-height: 200px;
+    border-radius: 7px;
+    
+    margin-top: 107px;
+    margin-bottom: 99px;
+}
+
+.container {
+    max-width: 1596px;
+    min-height: 478px;
+    margin-left: 252px;
+}
+
+.wear__img-wrap {
+    width: 100%;
+    height: 99px;
+    overflow: hidden;
+
+}
+
+.wear__img {
+    object-fit: cover;
+    margin-bottom: 19px;
+    display: flex;
+    margin-left: 99px;
+    align-items: center;
+margin-top: 33px;
+
+
+}
+
+.wear-headline {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.603);
+}
+
+.wear-desc {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+}
+
+
+
+.Brown-Sugar-Oatmea {
+    background-color: rgba(210, 49, 103, 0.103);
+    padding: 64px 0px;
+}
+
+.text__headline {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+    margin-bottom: 15px;
+    color: #150101;
+
+}
+
+.text__container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+
+
+.text__action {
+    min-width: 442px;
+    margin-top: 148px;
+}
+
+.tittle__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+
+
+    color: rgba(21, 1, 1, 0.603)
+}
+
+.desc__text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.img__content-wrap {
+    margin-left: 199px;
+    width: 474px;
+    height: 358px;
+    margin-top: 66px;
+}
+
+.img__content {
+    width: 50%;
+}
+
+.btn__content {
+    width: 165px;
+    height: 50px;
+    background: #D23166;
+    border-radius: 5px;
+    border: 0px;
+}
+
+
+
+
+
+.heading__text {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+    margin-top: 137px;
+   text-align: center;
+}
+
+
+.shop{
+   
+}
+.shop__item {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 82px;
+}
+
+.shop__list:last-child {
+    margin-right: 330px;
+}
+
+.shop__list:first-child {
+    padding-left: 357px;
+}
+.shop__list:last-child{
+    padding-right: 0px;
+}
+.shop__item {
+   
+    
+}
+
+.shop__item:last-child {
+    margin: 0px;
+}
+
+
+.text-color {
+    color: black;
+}
+
+
+
+
+
+
+
+
+.product__list {
+    margin-top: 50px;
+   
+}
+.card {
+    display: flex;
+
+}
+.card:nth-child(even) {
+    flex-direction: row-reverse;
+    margin-right: 505px;
+   text-align: right;
+    
+   
+}
+.card__img-wrap {
+    flex: 1;
+    width: 580px;
+    height: 415px;
+}
+
+.card:nth-child(odd){
+   margin-left: 233px;
+   margin-right: 244px;
+}
+.card__info {
+    flex: 1;
+    padding: 60px 40px 20px 85px;
+}
+.card__info:nth-child(even){
+    margin-right: 84px;
+}
+.card__tittle { font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: black;
+}
+.card__desc { font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.705);
+}
+
+
+
+
+.card__price-new {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: black;
+}
+
+.card__price-old {
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    text-decoration-line: line-through;
+    color: rgba(0, 0, 0, 0.705);
+}
+.btn:nth-child(even) {
+    transform: translateX(275px);
+}
+
+
+
+
+.img-main-ice {
+    margin-left: 232px;
+
+    width: 564px;
+    height: 442px;
+}
+
+
+
+.feedback {
+    margin-top: 206px;
+}
+.container {
+}
+.feedback__content {
+    display: flex;
+}
+.feedback__column {
+    flex: 1;
+}
+.review {
+}
+.review__head {
+    display: flex;
+    align-items: center;
+   margin-bottom: 53px;
+}
+.avatar {
+    width: 59px;
+    height: 59px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.avatar__img {
+    height: 100%;
+    width: 100%;
+object-fit: cover;
+object-position: top center;
+}
+.review__tittle-block {
+    margin-left: 11px;
+}
+.review__tittle {
+}
+.review__subtittle {
+    font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #000000;
+
+opacity: 0.7;
+}
+.review__text {
+    width: 325px;
+    position: relative;
+    padding-left: 13px;
+    font-size: 16px;
+line-height: 24px;
+color: rgba(0, 0, 0, 0.697);
+}
+.review__text::before{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    content: url(img/icons/Group.svg);
+     
+    position: absolute;
+    left: 0;
+    top: 0;
+   
+
+}
+.review__text::after{
+    content: "";
+    content: url(img/icons/Group.svg);
+    display: inline-block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+   vertical-align: sub;
+    transform: scale(-1,1);
+margin-left: 3px;
+}
+.review-slider {
+max-width: 260px;
+position: relative;
+padding: 0px 39px;
+margin-top: 49px;
+}
+.review-slider__ctrls {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+width: 100%;
+top: 50%;
+left: 0px;
+transform: translate(0px, -50%);
+}
+.review-slider__ctrl {
+}
+.review-slider__ctrl_rotate_left {
+    transform: scale(-1,1);
+}
+.review-slider__ctrl-img {
+}
+.review-slider__list {
+
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5px;
+    align-items: center;
+    z-index: 10;
+    position: relative;
+}
+.review-slider__item.active .avatar{
+    border: 1px solid #d64374;
+}
+.review-slider__link {
+}
+.avatar_size_small {
+    width: 35px;
+    height: 35px;
+}
+.feedback__decor {
+    width: 564px;
+    height: 442px;
+}
+.feedback__decor-img {
+}
+.play {
+    background-color: #F8EDF0;
+    max-width: 2000px;
+    max-height: 654px;
+}
+
+.play {
+    max-height: 654px;
+}
+.container {
+}
+.play__container {
+    display: flex;
+    
+}
+.play__column {
+    
+}
+.play__text__main{
+    max-width: 607px;
+    margin-left: 265px;
+    margin-top: 78px;
+}
+.play__img {
+    
+}
+.play__link {
+}
+
+.play__img-wrap {
+    width: 305px;
+    height: 627px;
+    border-radius: 10%;
+    margin-top: 38px;
+}
+.play__text {
+    font-weight: 500;
+font-size: 44.2px;
+line-height: 52px;
+
+color: #000000;
+}
+.play__sub {
+    font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0.01em;
+
+color: rgb(15, 1, 1);
+
+}
+.play__list {
+}
+.item {
+    margin-bottom: 19px;
+}
+.play__item__img {
+    display: flex;
+    
+}
+.item:first-child{
+    margin-top: 30px;
+}
+.play__item__img__block {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+.play__item__img-wrap {
+    transform: translate(50%,50%);
+}
+.text__item {
+    font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+}
+.store__link {
+}
+.img__link {
+    display: flex;
+    transform: translateX(-11px);
+}
+.img__link:nth-child(1){
+    width: 200px;
+    height: 75px;
+}
+.img__link:nth-child(2){
+    width: 173px;
+    height: 85px;
+    transform: translateY(-5px);
+}
+.comment {
+    max-height: 545px;
+    max-width: 1600px;
+    margin-left: 429px;
+    margin-top: 150px;
+}
+
+.comment__container{
+
+    max-width: 637px;
+    max-height: 225px;
+}
+
+.text__comment {
+    font-weight: 500;
+font-size: 44px;
+line-height: 52px;
+text-align: center;
+max-width:522px;
+margin-bottom: 28px;
+}
+.input__comment{
+    width: 637px;
+    height: 74px;
+    background: #FAFAFA;
+    border: none;
+}
+.btn--size--small {
+    padding: 15px 37px;
+    background: #D23166;
+    height: 74px;
+    width: 134px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    transform: translate(506px,-74px);
+}
+
+
+
+
+
+
+.footer {
+    
+  background-color: #000000;
+
+}
+.container__footer{
+    max-height: 381px;
+}
+.footer__footer {
+  color: rgb(250, 250, 250);
+   display: flex;
+}
+
+.block__one {
+    
+    margin-bottom: 114px;
+}
+.logotype {
+    margin-top: 70px;       
+    
+}
+.logo__img {
+    margin-bottom: 9px;
+    width: 79px;
+    height: 79px;
+    border-radius: 50%;
+}
+.text__footer {
+    max-width: 207px;
+    margin-right: 37px;
+    margin-bottom: 25px;
+    font-weight: 400;
+font-size: 12px;
+line-height: 17px;
+letter-spacing: 0.01em;
+color: rgba(255, 255, 255, 0.694);
+}
+.Footwr__sub {
+    margin-bottom: 8px;
+}
+.Footer__links {
+    
+   
+}
+.img__links {
+    
+}
+.block__two {
+    margin-top: 143px;
+    
+}
+.Footer__list {
+    
+}
+.Footer__items {
+    
+}
+.Footer__link {color: rgba(255, 255, 255, 0.709);
+    font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+}
+.Footer__item {
+    margin-top: 10px;
+}
+.Footer__item:first-child{
+    margin-top: 0px;
+}
+.block__theree {
+    margin-top: 150px;
+    margin-left: 177px;
+}
+
+.block__last {
+    margin-top: 136px;
+    margin-left: 151px;
+}
+
+
+.input__comment--size--small {
+    width: 388px;height: 55px;  
+}
+.btn__footer {
+    width: 125px;
+    height: 55px;
+    transform: translateX(-123px);
+    padding: 15px 37px;
+    background: #D23166;
+    
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+}
+.Footer__link__img {
+    display: block;
+}
+.Footer__link__img-wrap {
+    margin-top: 19.38px;
+    margin-right: 15px;
+}
+
+
